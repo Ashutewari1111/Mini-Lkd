@@ -1,0 +1,119 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f9f9f9;
+
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: #0073b1;
+  color: #fff;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar span {
+  margin-right: 1em;
+  cursor: pointer;
+  font-weight: bold;
+}
+.navbar button {
+  background: #fff;
+  color: #0073b1;
+  padding: 0.4em 1em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.auth-container, .profile-view {
+  margin: 2em auto;
+  max-width: 400px;
+  background: #fff;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px #eee;
+}
+
+.auth-container input {
+  display: block;
+  width: 95%;
+  margin: 0.5em 0;
+  padding: 0.7em;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+.auth-container button {
+  width: 100%;
+  background: #0073b1;
+  color: #fff;
+  border: none;
+  padding: 0.8em;
+  border-radius: 4px;
+  font-weight: 600;
+  margin-top: 1em;
+  cursor: pointer;
+}
+.auth-container p { cursor: pointer; color: #0073b1; margin-top: 1em; }
+
+.post-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 2em auto;
+  background: #fff;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px #eee;
+}
+.post-form textarea {
+  margin-bottom: 1em;
+  padding: 0.8em;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+
+  resize: none;
+}
+.post-form button {
+  align-self: flex-end;
+  padding: 0.5em 1em;
+  background: #0073b1;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.post-feed {
+  max-width: 500px;
+  margin: 2em auto;
+}
+.post {
+  background: #fff;
+  margin: 0.6em 0;
+  border-radius: 6px;
+  box-shadow: 0 1px 6px #ececec;
+  padding: 1em 1.5em;
+}
+.post .author {
+  color: #0073b1;
+  cursor: pointer;
+  font-weight: bold;
+}
+.post .timestamp {
+  float: right;
+  color: #8f8f8f;
+}
+
+.profile-post {
+  background: #f3f3f3;
+
+  margin: 0.5em 0;
+  padding: 0.7em;
+  border-radius: 5px;
+}
+
